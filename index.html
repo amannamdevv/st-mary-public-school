@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en" class="light overflow-x-hidden">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>St. Mary Public School | Anchored in Learning</title>
+    <link rel="icon" type="image/png" href="/amvik_logo.png" />
+    <link rel="apple-touch-icon" href="/amvik_logo.png" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700;6..72,800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface": "#f8f9fb",
+              "on-secondary-container": "#3c4983",
+              "error": "#ba1a1a",
+              "surface-container-low": "#f2f4f6",
+              "secondary": "#4e5b96",
+              "outline": "#926f6b",
+              "outline-variant": "#e7bdb8",
+              "on-tertiary-fixed-variant": "#004b71",
+              "on-surface-variant": "#5d3f3c",
+              "on-primary": "#ffffff",
+              "tertiary-container": "#007bb5",
+              "primary-fixed-dim": "#ffb4ab",
+              "inverse-primary": "#ffb4ab",
+              "surface-container": "#eceef0",
+              "on-primary-fixed-variant": "#93000d",
+              "surface-dim": "#d8dadc",
+              "on-secondary": "#ffffff",
+              "on-tertiary-container": "#fbfcff",
+              "on-background": "#191c1e",
+              "surface-tint": "#c00014",
+              "inverse-on-surface": "#eff1f3",
+              "on-tertiary": "#ffffff",
+              "surface-container-lowest": "#ffffff",
+              "surface-variant": "#e0e3e5",
+              "error-container": "#ffdad6",
+              "surface-container-highest": "#e0e3e5",
+              "on-secondary-fixed": "#04154f",
+              "inverse-surface": "#2d3133",
+              "on-primary-fixed": "#410002",
+              "primary": "#ba0013",
+              "on-secondary-fixed-variant": "#36437d",
+              "tertiary-fixed-dim": "#8ecdff",
+              "secondary-container": "#aebbfd",
+              "surface-container-high": "#e6e8ea",
+              "on-primary-container": "#fffafa",
+              "primary-container": "#e31e24",
+              "secondary-fixed-dim": "#b8c3ff",
+              "tertiary": "#006190",
+              "on-error": "#ffffff",
+              "background": "#f8f9fb",
+              "secondary-fixed": "#dde1ff",
+              "on-error-container": "#93000a",
+              "on-tertiary-fixed": "#001e30",
+              "on-surface": "#191c1e",
+              "tertiary-fixed": "#cbe6ff",
+              "surface-bright": "#f8f9fb",
+              "primary-fixed": "#ffdad6"
+            },
+            fontFamily: {
+              "headline": ["Newsreader", "serif"],
+              "body": ["Manrope", "sans-serif"],
+              "label": ["Manrope", "sans-serif"]
+            },
+            borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
+          },
+        },
+      }
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        display: inline-block;
+        line-height: 1;
+      }
+      .glass-nav {
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+      }
+    </style>
+    <link rel="stylesheet" href="/loader.css" />
+  </head>
+  <body class="bg-surface text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
